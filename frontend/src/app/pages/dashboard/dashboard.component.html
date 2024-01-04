@@ -1,0 +1,95 @@
+<div class="dashboard">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">
+        Mock API
+      </a>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary">Login</a>
+          <a class="button is-light">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Main Content -->
+  <div class="columns">
+    <!-- Side Nav -->
+    <div class="column is-narrow">
+      <div class="sidenav">
+        <ul>
+          <li>Entry 1</li>
+          <li>Entry 2</li>
+          <li>Entry 3</li>
+        </ul>
+        <div class="sidenav-footer">
+          <button class="button is-primary is-fullwidth">Add new API</button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Dashboard -->
+    <div class="column main-dashboard">
+      <div class="dashboard-container">
+        <h1 class="title">Dashboard Title</h1>
+  
+        <!-- Tabs Component -->
+        <div class="tabs">
+          <ul>
+            <li class="is-active"><a>Tab 1</a></li>
+            <li><a>Tab 2</a></li>
+            <li><a>Tab 3</a></li>
+          </ul>
+        </div>
+    
+        <!-- Form -->
+        <div class="form">
+          <!-- Input: Endpoint URL -->
+          <div class="field">
+            <label class="label">Endpoint URL</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Enter endpoint URL">
+            </div>
+          </div>
+    
+          <!-- Dropdown: Request Type -->
+          <div class="field">
+            <label class="label">Request Type</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Get</option>
+                  <option>Post</option>
+                </select>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Response Body -->
+          <div class="field">
+            <label class="label">Response Body</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Enter response body"></textarea>
+            </div>
+          </div>
+    
+          <!-- Delete and Save Buttons -->
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-danger">Delete</button>
+            </div>
+            <div class="control">
+              <button class="button is-primary">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <button class="button is-danger is-fullwidth">Delete API</button>
+      </div>
+    </div>
+  </div>
+</div>
